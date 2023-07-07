@@ -1,5 +1,5 @@
 body {
-    background-color: aqua;
+    background-color: lightblue;
 }
 
 .navbar-brand
@@ -8,17 +8,51 @@ body {
     width: 5%;
 }
 
-img {
-border-radius: 700px;
-height: auto;
-padding: 25px;
-max-width: 100%;
-
-}
-
 h1,h2,h3 {
     text-align: center; 
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color:rgb(196, 190, 201);
+}
+
+h1 {
+    font-size: flex;
+}
+
+.experience {
+    text-align: left;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        background-color: rgb(91, 76, 104);
+        color: aliceblue;
+        padding: 10px;
+        font-weight: bolder;
+
+}
+
+.experience-text {
+    text-align: left;
+    background-color:rgb(196, 190, 201);
+}
+
+.card-img-top  {
+    border-radius: 0px;
+    max-width: 400px;
+    max-height: 500px;
+    display: block;
+    margin-left:auto ;
+    margin-right: auto;
+}
+
+img {
+border-radius: 1000px;
+height: auto;
+padding: 25px;
+max-width: 100%;
+}
+
+
+
+div {
+    background-color: rgb(196, 190, 201);
 }
 
 
@@ -32,4 +66,9 @@ h1,h2,h3 {
 .btn-branding {
         display: flex;
         align-items:center;
+}
+
+.container {
+    font-size: x-large;
+    justify-content: flex-start;
 }
