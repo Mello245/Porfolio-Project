@@ -1,8 +1,16 @@
+body {
+    background-color: aqua;
+}
 
+.navbar-brand
+{
+    height: 5%;
+    width: 5%;
+}
 
 img {
 border-radius: 700px;
-height: 300px;
+height: auto;
 padding: 25px;
 max-width: 100%;
 
