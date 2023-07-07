@@ -9,7 +9,8 @@ max-width: 100%;
 }
 
 h1,h2,h3 {
-    text-align: center;
+    text-align: center; 
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 
@@ -18,4 +19,9 @@ h1,h2,h3 {
     margin-left: auto;
     margin-right: auto;
     width: 25%;
+}
+
+.btn-branding {
+        display: flex;
+        align-items:center;
 }
