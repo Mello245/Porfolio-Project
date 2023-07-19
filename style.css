@@ -42,7 +42,7 @@ h1 {
     margin-right: auto;
 }
 
-img {
+.img-fluid {
 border-radius: 1000px;
 height: auto;
 padding: 25px;
@@ -71,4 +71,38 @@ div {
 .container {
     font-size: x-large;
     justify-content: flex-start;
+}
+
+
+.mail-link {
+    text-align: center;
+}
+
+.contact-link {
+    text-align: center;
+    font-size: large;
+    color: azure;
+    background-color: rgb(52, 31, 87);
+}
+
+.contact-link:hover {
+    background-color: rgb(220, 188, 255);
+    color: blueviolet
+}
+
+h1:hover {
+color: rgb(255, 255, 255);
+}
+
+h2:hover {
+    color: azure;
+}
+
+h3:hover {
+    color: azure;
+}
+
+p {
+    text-align: center;
+    font-size: large;
 }
